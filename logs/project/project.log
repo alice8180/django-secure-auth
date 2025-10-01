@@ -1,0 +1,542 @@
+[2025-10-01 00:05:43,164] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 00:06:42,083] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/django_secure_auth/settings.py changed, reloading.
+[2025-10-01 00:06:42,604] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 00:06:44,861] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/django_secure_auth/settings.py changed, reloading.
+[2025-10-01 00:06:45,401] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 00:06:58,138] INFO [django.server:213] - "POST /reset-password/ HTTP/1.1" 200 69
+[2025-10-01 00:07:55,526] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/accounts/views.py changed, reloading.
+[2025-10-01 00:07:56,045] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 00:08:11,533] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/accounts/views.py changed, reloading.
+[2025-10-01 00:08:12,075] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 00:08:45,024] INFO [django.server:213] - "GET /get-csrf-token/ HTTP/1.1" 200 56
+[2025-10-01 00:09:05,534] ERROR [django.request:253] - Internal Server Error: /set-new-password/ZDRjZDFlMzAtZjIwZS00ZTM0LWI1YWEtY2MzOTcxM2I2MTFl/cwywbe-ebefb206a5c3352eeb0b1347025729ed/
+[2025-10-01 00:09:05,535] ERROR [django.server:213] - "POST /set-new-password/ZDRjZDFlMzAtZjIwZS00ZTM0LWI1YWEtY2MzOTcxM2I2MTFl/cwywbe-ebefb206a5c3352eeb0b1347025729ed/ HTTP/1.1" 500 32
+[2025-10-01 00:10:23,238] WARNING [django.request:253] - Bad Request: /set-new-password/ZDRjZDFlMzAtZjIwZS00ZTM0LWI1YWEtY2MzOTcxM2I2MTFl/cwywbe-ebefb206a5c3352eeb0b1347025729ed/
+[2025-10-01 00:10:23,238] WARNING [django.server:213] - "POST /set-new-password/ZDRjZDFlMzAtZjIwZS00ZTM0LWI1YWEtY2MzOTcxM2I2MTFl/cwywbe-ebefb206a5c3352eeb0b1347025729ed/ HTTP/1.1" 400 37
+[2025-10-01 00:10:33,017] INFO [django.server:213] - "GET /logout/ HTTP/1.1" 200 35
+[2025-10-01 00:11:09,036] INFO [django.server:213] - "POST /reset-password/ HTTP/1.1" 200 73
+[2025-10-01 00:11:48,115] WARNING [django.security.csrf:253] - Forbidden (CSRF cookie not set.): /set-new-password/ZDRjZDFlMzAtZjIwZS00ZTM0LWI1YWEtY2MzOTcxM2I2MTFl/cwywid-120ad5f3048a89ba1fc38492539753bf/
+[2025-10-01 00:11:48,115] WARNING [django.request:253] - Unauthorized: /set-new-password/ZDRjZDFlMzAtZjIwZS00ZTM0LWI1YWEtY2MzOTcxM2I2MTFl/cwywid-120ad5f3048a89ba1fc38492539753bf/
+[2025-10-01 00:11:48,115] WARNING [django.server:213] - "POST /set-new-password/ZDRjZDFlMzAtZjIwZS00ZTM0LWI1YWEtY2MzOTcxM2I2MTFl/cwywid-120ad5f3048a89ba1fc38492539753bf/ HTTP/1.1" 401 24
+[2025-10-01 00:11:57,312] INFO [django.server:213] - "GET /get-csrf-token/ HTTP/1.1" 200 56
+[2025-10-01 00:12:11,186] ERROR [django.server:213] - "POST /set-new-password/ZDRjZDFlMzAtZjIwZS00ZTM0LWI1YWEtY2MzOTcxM2I2MTFl/cwywid-120ad5f3048a89ba1fc38492539753bf/ HTTP/1.1" 500 32
+[2025-10-01 00:16:53,681] WARNING [django.security.csrf:253] - Forbidden (CSRF token from the 'X-Csrftoken' HTTP header incorrect.): /reset-password/
+[2025-10-01 00:16:53,681] WARNING [django.request:253] - Unauthorized: /reset-password/
+[2025-10-01 00:16:53,682] WARNING [django.server:213] - "POST /reset-password/ HTTP/1.1" 401 24
+[2025-10-01 00:17:12,152] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/config/csrf_config.py changed, reloading.
+[2025-10-01 00:17:12,677] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 00:17:24,582] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 00:20:43,645] WARNING [django.request:253] - Unauthorized: /logout/
+[2025-10-01 00:20:43,646] WARNING [django.server:213] - "GET /logout/ HTTP/1.1" 401 82
+[2025-10-01 00:21:03,230] WARNING [django.security.csrf:253] - Forbidden (CSRF token from the 'X-Csrftoken' HTTP header incorrect.): /reset-password/
+[2025-10-01 00:21:03,230] WARNING [django.request:253] - Unauthorized: /reset-password/
+[2025-10-01 00:21:03,231] WARNING [django.server:213] - "POST /reset-password/ HTTP/1.1" 401 24
+[2025-10-01 00:21:03,979] WARNING [django.security.csrf:253] - Forbidden (CSRF token from the 'X-Csrftoken' HTTP header incorrect.): /reset-password/
+[2025-10-01 00:21:03,979] WARNING [django.request:253] - Unauthorized: /reset-password/
+[2025-10-01 00:21:03,979] WARNING [django.server:213] - "POST /reset-password/ HTTP/1.1" 401 24
+[2025-10-01 00:21:10,238] INFO [django.server:213] - "GET /get-csrf-token/ HTTP/1.1" 200 56
+[2025-10-01 00:21:18,586] INFO [django.server:213] - "GET /get-csrf-token/ HTTP/1.1" 200 56
+[2025-10-01 00:21:19,114] INFO [django.server:213] - "GET /get-csrf-token/ HTTP/1.1" 200 56
+[2025-10-01 00:21:34,793] INFO [django.server:213] - "POST /reset-password/ HTTP/1.1" 200 73
+[2025-10-01 00:22:03,893] ERROR [django.request:253] - Internal Server Error: /set-new-password/ZDRjZDFlMzAtZjIwZS00ZTM0LWI1YWEtY2MzOTcxM2I2MTFl/cwywzr-4fcb4e89399cf5a3eb123aa627e5eb22/
+[2025-10-01 00:22:03,893] ERROR [django.server:213] - "POST /set-new-password/ZDRjZDFlMzAtZjIwZS00ZTM0LWI1YWEtY2MzOTcxM2I2MTFl/cwywzr-4fcb4e89399cf5a3eb123aa627e5eb22/ HTTP/1.1" 500 32
+[2025-10-01 00:24:32,981] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/accounts/views.py changed, reloading.
+[2025-10-01 00:24:33,519] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 00:24:42,936] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/accounts/views.py changed, reloading.
+[2025-10-01 00:24:43,489] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 00:24:52,949] INFO [django.server:213] - "GET /admin/accounts/emailverificationtoken/ HTTP/1.1" 302 0
+[2025-10-01 00:24:52,969] INFO [django.server:213] - "GET /admin/login/?next=/admin/accounts/emailverificationtoken/ HTTP/1.1" 200 4238
+[2025-10-01 00:25:13,125] INFO [django.server:213] - "POST /reset-password/ HTTP/1.1" 200 73
+[2025-10-01 00:25:42,758] ERROR [django.request:253] - Internal Server Error: /set-new-password/ZDRjZDFlMzAtZjIwZS00ZTM0LWI1YWEtY2MzOTcxM2I2MTFl/cwyx5t-eeda6ef8f51a01ed8b266144db01d258/
+[2025-10-01 00:25:42,758] ERROR [django.server:213] - "POST /set-new-password/ZDRjZDFlMzAtZjIwZS00ZTM0LWI1YWEtY2MzOTcxM2I2MTFl/cwyx5t-eeda6ef8f51a01ed8b266144db01d258/ HTTP/1.1" 500 32
+[2025-10-01 00:31:45,030] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/accounts/views.py changed, reloading.
+[2025-10-01 00:31:45,553] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 00:32:17,077] INFO [django.server:213] - "GET /api/schema/swagger-ui/ HTTP/1.1" 200 4633
+[2025-10-01 00:32:17,299] INFO [django.server:213] - "GET /api/schema/ HTTP/1.1" 200 25866
+[2025-10-01 00:32:20,429] INFO [django.server:213] - "GET /admin/ HTTP/1.1" 302 0
+[2025-10-01 00:32:20,450] INFO [django.server:213] - "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4174
+[2025-10-01 00:32:31,233] INFO [django.server:213] - "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2025-10-01 00:32:31,265] INFO [django.server:213] - "GET /admin/ HTTP/1.1" 200 13688
+[2025-10-01 00:32:34,480] INFO [django.server:213] - "GET /admin/accounts/emailverificationtoken/ HTTP/1.1" 200 10419
+[2025-10-01 00:32:34,575] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 00:32:37,057] INFO [django.server:213] - "GET /admin/accounts/emailverificationtoken/ HTTP/1.1" 200 10419
+[2025-10-01 00:32:37,110] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 00:32:37,496] INFO [django.server:213] - "GET /admin/accounts/emailverificationtoken/ HTTP/1.1" 200 10419
+[2025-10-01 00:32:37,553] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 00:32:38,135] INFO [django.server:213] - "GET /admin/accounts/emailverificationtoken/ HTTP/1.1" 200 10419
+[2025-10-01 00:32:38,188] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 00:32:40,513] INFO [django.server:213] - "GET /admin/accounts/emailverificationtoken/ HTTP/1.1" 200 10419
+[2025-10-01 00:32:40,574] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 00:32:43,354] INFO [django.server:213] - "GET /admin/accounts/profile/ HTTP/1.1" 200 12892
+[2025-10-01 00:32:43,415] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 00:32:49,993] INFO [django.server:213] - "GET /admin/accounts/profile/7c423cd4-4e67-49cd-8738-b03c34e749c5/change/ HTTP/1.1" 200 15277
+[2025-10-01 00:32:50,072] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 00:32:55,225] INFO [django.server:213] - "GET /admin/accounts/emailverificationtoken/ HTTP/1.1" 200 10419
+[2025-10-01 00:32:55,285] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 00:32:56,538] INFO [django.server:213] - "GET /admin/accounts/customuser/ HTTP/1.1" 200 15887
+[2025-10-01 00:32:56,620] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 00:32:59,264] INFO [django.server:213] - "GET /admin/accounts/emailverificationtoken/ HTTP/1.1" 200 10419
+[2025-10-01 00:32:59,326] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 00:33:03,690] INFO [django.server:213] - "GET /admin/accounts/emailverificationtoken/add/ HTTP/1.1" 200 14521
+[2025-10-01 00:33:03,756] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 00:33:12,018] INFO [django.server:213] - "GET /admin/accounts/customuser/ HTTP/1.1" 200 15887
+[2025-10-01 00:33:12,092] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 00:33:16,001] INFO [django.server:213] - "GET /admin/accounts/emailverificationtoken/ HTTP/1.1" 200 10419
+[2025-10-01 00:33:16,060] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 00:33:19,470] INFO [django.server:213] - "GET /admin/accounts/customuser/ HTTP/1.1" 200 15887
+[2025-10-01 00:33:19,539] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 00:34:37,093] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/config/celery_config.py changed, reloading.
+[2025-10-01 00:34:37,621] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 00:35:24,360] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/config/celery_config.py changed, reloading.
+[2025-10-01 00:35:24,955] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 00:35:51,546] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/config/celery_config.py changed, reloading.
+[2025-10-01 00:35:52,085] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 00:41:00,977] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/celery_tasks/notifications.py changed, reloading.
+[2025-10-01 00:41:01,534] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 00:41:14,062] INFO [django.server:213] - "POST /reset-password/ HTTP/1.1" 200 73
+[2025-10-01 00:43:17,804] ERROR [django.request:253] - Internal Server Error: /set-new-password/ZDRjZDFlMzAtZjIwZS00ZTM0LWI1YWEtY2MzOTcxM2I2MTFl/cwyxwi-e9fe080908d23d594aae93d79f20ceff/
+[2025-10-01 00:43:17,804] ERROR [django.server:213] - "POST /set-new-password/ZDRjZDFlMzAtZjIwZS00ZTM0LWI1YWEtY2MzOTcxM2I2MTFl/cwyxwi-e9fe080908d23d594aae93d79f20ceff/ HTTP/1.1" 500 32
+[2025-10-01 00:44:27,955] WARNING [django.request:253] - Bad Request: /set-new-password/ZDRjZDFlMzAtZjIwZS00ZTM0LWI1YWEtY2MzOTcxM2I2MTFl/cwyxwi-e9fe080908d23d594aae93d79f20ceff/
+[2025-10-01 00:44:27,956] WARNING [django.server:213] - "POST /set-new-password/ZDRjZDFlMzAtZjIwZS00ZTM0LWI1YWEtY2MzOTcxM2I2MTFl/cwyxwi-e9fe080908d23d594aae93d79f20ceff/ HTTP/1.1" 400 37
+[2025-10-01 00:44:28,683] WARNING [django.request:253] - Bad Request: /set-new-password/ZDRjZDFlMzAtZjIwZS00ZTM0LWI1YWEtY2MzOTcxM2I2MTFl/cwyxwi-e9fe080908d23d594aae93d79f20ceff/
+[2025-10-01 00:44:28,684] WARNING [django.server:213] - "POST /set-new-password/ZDRjZDFlMzAtZjIwZS00ZTM0LWI1YWEtY2MzOTcxM2I2MTFl/cwyxwi-e9fe080908d23d594aae93d79f20ceff/ HTTP/1.1" 400 37
+[2025-10-01 00:44:29,098] WARNING [django.request:253] - Bad Request: /set-new-password/ZDRjZDFlMzAtZjIwZS00ZTM0LWI1YWEtY2MzOTcxM2I2MTFl/cwyxwi-e9fe080908d23d594aae93d79f20ceff/
+[2025-10-01 00:44:29,099] WARNING [django.server:213] - "POST /set-new-password/ZDRjZDFlMzAtZjIwZS00ZTM0LWI1YWEtY2MzOTcxM2I2MTFl/cwyxwi-e9fe080908d23d594aae93d79f20ceff/ HTTP/1.1" 400 37
+[2025-10-01 00:44:29,315] WARNING [django.request:253] - Bad Request: /set-new-password/ZDRjZDFlMzAtZjIwZS00ZTM0LWI1YWEtY2MzOTcxM2I2MTFl/cwyxwi-e9fe080908d23d594aae93d79f20ceff/
+[2025-10-01 00:44:29,316] WARNING [django.server:213] - "POST /set-new-password/ZDRjZDFlMzAtZjIwZS00ZTM0LWI1YWEtY2MzOTcxM2I2MTFl/cwyxwi-e9fe080908d23d594aae93d79f20ceff/ HTTP/1.1" 400 37
+[2025-10-01 00:44:30,499] WARNING [django.request:253] - Bad Request: /set-new-password/ZDRjZDFlMzAtZjIwZS00ZTM0LWI1YWEtY2MzOTcxM2I2MTFl/cwyxwi-e9fe080908d23d594aae93d79f20ceff/
+[2025-10-01 00:44:30,499] WARNING [django.server:213] - "POST /set-new-password/ZDRjZDFlMzAtZjIwZS00ZTM0LWI1YWEtY2MzOTcxM2I2MTFl/cwyxwi-e9fe080908d23d594aae93d79f20ceff/ HTTP/1.1" 400 37
+[2025-10-01 00:44:40,930] INFO [django.server:213] - "POST /reset-password/ HTTP/1.1" 200 73
+[2025-10-01 00:45:00,355] ERROR [django.server:213] - "POST /set-new-password/ZDRjZDFlMzAtZjIwZS00ZTM0LWI1YWEtY2MzOTcxM2I2MTFl/cwyy29-3f922698a72db75498d7e94365078e8e/ HTTP/1.1" 500 32
+[2025-10-01 00:48:24,126] INFO [django.server:213] - "GET /admin/accounts/customuser/1e9068d8-b868-4032-ac0e-671e8af37f13/change/ HTTP/1.1" 302 0
+[2025-10-01 00:48:24,145] INFO [django.server:213] - "GET /admin/login/?next=/admin/accounts/customuser/1e9068d8-b868-4032-ac0e-671e8af37f13/change/ HTTP/1.1" 200 4302
+[2025-10-01 00:48:29,294] INFO [django.server:213] - "POST /admin/login/?next=/admin/accounts/customuser/1e9068d8-b868-4032-ac0e-671e8af37f13/change/ HTTP/1.1" 200 4486
+[2025-10-01 00:48:36,874] INFO [django.server:213] - "POST /admin/login/?next=/admin/accounts/customuser/1e9068d8-b868-4032-ac0e-671e8af37f13/change/ HTTP/1.1" 302 0
+[2025-10-01 00:48:36,962] INFO [django.server:213] - "GET /admin/accounts/customuser/1e9068d8-b868-4032-ac0e-671e8af37f13/change/ HTTP/1.1" 200 22617
+[2025-10-01 00:48:37,089] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 00:48:38,778] INFO [django.server:213] - "GET /admin/accounts/emailverificationtoken/ HTTP/1.1" 200 10419
+[2025-10-01 00:48:38,852] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 00:48:40,236] INFO [django.server:213] - "GET /admin/accounts/customuser/ HTTP/1.1" 200 15887
+[2025-10-01 00:48:40,318] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 00:48:41,418] INFO [django.server:213] - "GET /admin/accounts/customuser/1e9068d8-b868-4032-ac0e-671e8af37f13/change/ HTTP/1.1" 200 22617
+[2025-10-01 00:48:41,481] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 00:48:55,562] INFO [django.server:213] - "POST /admin/accounts/customuser/1e9068d8-b868-4032-ac0e-671e8af37f13/change/ HTTP/1.1" 302 0
+[2025-10-01 00:48:55,598] INFO [django.server:213] - "GET /admin/accounts/customuser/ HTTP/1.1" 200 16138
+[2025-10-01 00:48:55,700] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 00:49:23,942] INFO [django.server:213] - "GET /get-csrf-token/ HTTP/1.1" 200 56
+[2025-10-01 00:49:42,893] INFO [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 200 73
+[2025-10-01 00:51:14,093] INFO [django.server:213] - "GET /admin/accounts/customuser/ca246c58-c439-4895-8549-335a64ca420d/change/ HTTP/1.1" 200 22661
+[2025-10-01 00:51:14,272] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 00:57:23,258] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/accounts/serializers.py changed, reloading.
+[2025-10-01 00:57:23,950] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 00:58:12,749] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/accounts/serializers.py changed, reloading.
+[2025-10-01 00:58:13,290] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 00:59:28,522] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/accounts/views.py changed, reloading.
+[2025-10-01 00:59:29,047] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 00:59:30,301] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/accounts/views.py changed, reloading.
+[2025-10-01 00:59:30,815] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 00:59:33,117] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/accounts/views.py changed, reloading.
+[2025-10-01 00:59:33,618] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 01:04:43,033] INFO [django.server:213] - "POST /reset-password/ HTTP/1.1" 200 73
+[2025-10-01 01:05:12,682] ERROR [django.request:253] - Internal Server Error: /set-new-password/ZDRjZDFlMzAtZjIwZS00ZTM0LWI1YWEtY2MzOTcxM2I2MTFl/cwyyzo-b657ba5510d10ba36eb975a425762497/
+[2025-10-01 01:05:12,684] ERROR [django.server:213] - "POST /set-new-password/ZDRjZDFlMzAtZjIwZS00ZTM0LWI1YWEtY2MzOTcxM2I2MTFl/cwyyzo-b657ba5510d10ba36eb975a425762497/ HTTP/1.1" 500 32
+[2025-10-01 01:05:48,740] INFO [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 200 73
+[2025-10-01 01:06:31,216] ERROR [django.server:213] - "POST /verify-email/pzBs4TDXxT8Yozk6B8VYwF1eSaW6Ko9GNGnH47BZnSU/ HTTP/1.1" 500 32
+[2025-10-01 01:07:20,417] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/accounts/views.py changed, reloading.
+[2025-10-01 01:07:20,957] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 01:07:39,123] INFO [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 200 37
+[2025-10-01 01:07:56,028] INFO [django.server:213] - "GET /admin/accounts/customuser/ HTTP/1.1" 302 0
+[2025-10-01 01:07:56,050] INFO [django.server:213] - "GET /admin/login/?next=/admin/accounts/customuser/ HTTP/1.1" 200 4214
+[2025-10-01 01:08:05,151] INFO [django.server:213] - "POST /admin/login/?next=/admin/accounts/customuser/ HTTP/1.1" 302 0
+[2025-10-01 01:08:05,196] INFO [django.server:213] - "GET /admin/accounts/customuser/ HTTP/1.1" 200 15887
+[2025-10-01 01:08:05,334] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 01:08:06,758] INFO [django.server:213] - "GET /admin/accounts/customuser/1e9068d8-b868-4032-ac0e-671e8af37f13/change/ HTTP/1.1" 200 22617
+[2025-10-01 01:08:06,834] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 01:08:10,010] INFO [django.server:213] - "POST /admin/accounts/customuser/1e9068d8-b868-4032-ac0e-671e8af37f13/change/ HTTP/1.1" 302 0
+[2025-10-01 01:08:10,043] INFO [django.server:213] - "GET /admin/accounts/customuser/ HTTP/1.1" 200 16138
+[2025-10-01 01:08:10,151] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 01:08:13,573] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 01:08:13,573] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 01:08:21,985] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 01:08:21,986] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 01:08:22,529] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 01:08:22,530] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 01:08:22,746] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 01:08:22,747] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 01:08:22,962] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 01:08:22,962] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 01:08:23,177] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 01:08:23,178] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 01:08:23,378] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 01:08:23,378] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 01:08:45,553] INFO [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 200 73
+[2025-10-01 01:09:21,115] ERROR [django.request:253] - Internal Server Error: /verify-email/k1xos_T-7HkyOL2aQ42y6zmeNIQpWwEnvPZqADDSOls/
+[2025-10-01 01:09:21,116] ERROR [django.server:213] - "POST /verify-email/k1xos_T-7HkyOL2aQ42y6zmeNIQpWwEnvPZqADDSOls/ HTTP/1.1" 500 32
+[2025-10-01 01:39:02,318] WARNING [django.security.csrf:253] - Forbidden (CSRF cookie not set.): /resend-verify-email/
+[2025-10-01 01:39:02,319] WARNING [django.request:253] - Unauthorized: /resend-verify-email/
+[2025-10-01 01:39:02,320] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 401 24
+[2025-10-01 01:39:09,843] INFO [django.server:213] - "GET /get-csrf-token/ HTTP/1.1" 200 56
+[2025-10-01 01:39:13,937] WARNING [django.security.csrf:253] - Forbidden (CSRF token from the 'X-Csrftoken' HTTP header incorrect.): /resend-verify-email/
+[2025-10-01 01:39:13,938] WARNING [django.request:253] - Unauthorized: /resend-verify-email/
+[2025-10-01 01:39:13,938] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 401 24
+[2025-10-01 01:39:30,177] INFO [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 200 37
+[2025-10-01 01:39:44,793] INFO [django.server:213] - "GET /admin/accounts/customuser/1e9068d8-b868-4032-ac0e-671e8af37f13/change/ HTTP/1.1" 200 22617
+[2025-10-01 01:39:44,938] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 01:39:48,287] INFO [django.server:213] - "POST /admin/accounts/customuser/1e9068d8-b868-4032-ac0e-671e8af37f13/change/ HTTP/1.1" 302 0
+[2025-10-01 01:39:48,319] INFO [django.server:213] - "GET /admin/accounts/customuser/ HTTP/1.1" 200 16138
+[2025-10-01 01:39:48,436] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 01:40:00,012] INFO [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 200 73
+[2025-10-01 01:40:32,910] ERROR [django.server:213] - "POST /verify-email/h89XMgjHkUK43ltrV1F2FnZEXR2DIh4OIRey4kqPTwM/ HTTP/1.1" 500 32
+[2025-10-01 01:43:00,314] INFO [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 200 37
+[2025-10-01 01:43:12,796] INFO [django.server:213] - "GET /admin/accounts/customuser/1e9068d8-b868-4032-ac0e-671e8af37f13/change/ HTTP/1.1" 200 22617
+[2025-10-01 01:43:12,908] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 01:43:15,890] INFO [django.server:213] - "POST /admin/accounts/customuser/1e9068d8-b868-4032-ac0e-671e8af37f13/change/ HTTP/1.1" 302 0
+[2025-10-01 01:43:15,924] INFO [django.server:213] - "GET /admin/accounts/customuser/ HTTP/1.1" 200 16138
+[2025-10-01 01:43:16,041] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 01:43:19,796] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 01:43:19,797] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 01:43:24,189] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 01:43:24,190] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 01:43:24,741] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 01:43:24,741] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 01:43:25,221] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 01:43:25,221] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 01:43:25,428] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 01:43:25,428] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 01:43:25,629] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 01:43:25,630] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 01:43:25,836] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 01:43:25,836] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 01:43:26,020] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 01:43:26,020] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 01:43:27,581] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 01:43:27,581] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 01:43:28,236] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 01:43:28,237] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 01:43:28,764] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 01:43:28,765] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 01:43:40,575] INFO [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 200 73
+[2025-10-01 01:44:04,324] ERROR [django.server:213] - "POST /verify-email/GM_3waz4R-7r1SK2mIeTrZqENM7k-9zFqfmxS9kbyOg/ HTTP/1.1" 500 32
+[2025-10-01 01:50:03,937] INFO [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 200 37
+[2025-10-01 01:50:13,989] INFO [django.server:213] - "GET /admin/ HTTP/1.1" 302 0
+[2025-10-01 01:50:14,007] INFO [django.server:213] - "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4174
+[2025-10-01 01:50:14,109] INFO [django.server:213] - "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[2025-10-01 01:50:14,115] INFO [django.server:213] - "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[2025-10-01 01:50:14,117] INFO [django.server:213] - "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[2025-10-01 01:50:14,119] INFO [django.server:213] - "GET /static/admin/css/login.css HTTP/1.1" 304 0
+[2025-10-01 01:50:14,122] INFO [django.server:213] - "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+[2025-10-01 01:50:14,123] INFO [django.server:213] - "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[2025-10-01 01:50:14,182] INFO [django.server:213] - "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[2025-10-01 01:50:14,250] WARNING [django.request:253] - Not Found: /favicon.ico
+[2025-10-01 01:50:14,254] WARNING [django.server:213] - "GET /favicon.ico HTTP/1.1" 404 6098
+[2025-10-01 01:50:16,673] INFO [django.server:213] - "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4358
+[2025-10-01 01:50:21,340] INFO [django.server:213] - "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2025-10-01 01:50:21,374] INFO [django.server:213] - "GET /admin/ HTTP/1.1" 200 13752
+[2025-10-01 01:50:21,454] INFO [django.server:213] - "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[2025-10-01 01:50:21,504] INFO [django.server:213] - "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[2025-10-01 01:50:21,504] INFO [django.server:213] - "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[2025-10-01 01:50:21,506] INFO [django.server:213] - "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+[2025-10-01 01:50:24,924] INFO [django.server:213] - "GET /admin/accounts/customuser/ HTTP/1.1" 200 15887
+[2025-10-01 01:50:24,979] INFO [django.server:213] - "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[2025-10-01 01:50:24,995] INFO [django.server:213] - "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[2025-10-01 01:50:24,997] INFO [django.server:213] - "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[2025-10-01 01:50:24,998] INFO [django.server:213] - "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[2025-10-01 01:50:24,998] INFO [django.server:213] - "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[2025-10-01 01:50:25,003] INFO [django.server:213] - "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[2025-10-01 01:50:24,998] INFO [django.server:213] - "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[2025-10-01 01:50:25,006] INFO [django.server:213] - "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[2025-10-01 01:50:25,007] INFO [django.server:213] - "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[2025-10-01 01:50:25,020] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 01:50:25,052] INFO [django.server:213] - "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+[2025-10-01 01:50:25,053] INFO [django.server:213] - "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+[2025-10-01 01:50:25,089] INFO [django.server:213] - "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+[2025-10-01 01:50:25,089] INFO [django.server:213] - "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+[2025-10-01 01:50:25,100] INFO [django.server:213] - "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[2025-10-01 01:50:25,102] INFO [django.server:213] - "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+[2025-10-01 01:50:26,769] INFO [django.server:213] - "GET /admin/accounts/customuser/1e9068d8-b868-4032-ac0e-671e8af37f13/change/ HTTP/1.1" 200 22617
+[2025-10-01 01:50:26,817] INFO [django.server:213] - "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+[2025-10-01 01:50:26,818] INFO [django.server:213] - "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[2025-10-01 01:50:26,818] INFO [django.server:213] - "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+[2025-10-01 01:50:26,842] INFO [django.server:213] - "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[2025-10-01 01:50:26,844] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 01:50:26,845] INFO [django.server:213] - "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[2025-10-01 01:50:26,888] INFO [django.server:213] - "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[2025-10-01 01:50:26,941] INFO [django.server:213] - "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+[2025-10-01 01:50:26,942] INFO [django.server:213] - "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+[2025-10-01 01:50:29,388] INFO [django.server:213] - "POST /admin/accounts/customuser/1e9068d8-b868-4032-ac0e-671e8af37f13/change/ HTTP/1.1" 302 0
+[2025-10-01 01:50:29,422] INFO [django.server:213] - "GET /admin/accounts/customuser/ HTTP/1.1" 200 16138
+[2025-10-01 01:50:29,530] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 01:50:40,907] INFO [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 200 73
+[2025-10-01 01:51:00,223] ERROR [django.server:213] - "POST /verify-email/khC3A58OE17AhQ3BpHlO13NehaTONAdHt9q5XkK7KAo/ HTTP/1.1" 500 32
+[2025-10-01 02:08:10,535] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 02:09:14,392] WARNING [django.request:253] - Bad Request: /verify-email/vkznYf1PanYY3AymPKdzHPqJrj9-fYOhC9ZRcND6Qpo/
+[2025-10-01 02:09:14,392] WARNING [django.server:213] - "POST /verify-email/vkznYf1PanYY3AymPKdzHPqJrj9-fYOhC9ZRcND6Qpo/ HTTP/1.1" 400 35
+[2025-10-01 02:09:21,601] WARNING [django.security.SuspiciousSession:138] - Session data corrupted
+[2025-10-01 02:09:21,612] INFO [django.server:213] - "GET /admin/accounts/customuser/ HTTP/1.1" 302 0
+[2025-10-01 02:09:21,636] WARNING [django.security.SuspiciousSession:138] - Session data corrupted
+[2025-10-01 02:09:21,649] INFO [django.server:213] - "GET /admin/login/?next=/admin/accounts/customuser/ HTTP/1.1" 200 4214
+[2025-10-01 02:09:23,517] WARNING [django.security.SuspiciousSession:138] - Session data corrupted
+[2025-10-01 02:09:24,180] INFO [django.server:213] - "POST /admin/login/?next=/admin/accounts/customuser/ HTTP/1.1" 302 0
+[2025-10-01 02:09:24,224] INFO [django.server:213] - "GET /admin/accounts/customuser/ HTTP/1.1" 200 15887
+[2025-10-01 02:09:24,359] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 02:09:26,037] INFO [django.server:213] - "GET /admin/accounts/customuser/1e9068d8-b868-4032-ac0e-671e8af37f13/change/ HTTP/1.1" 200 22617
+[2025-10-01 02:09:26,117] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 02:09:28,440] INFO [django.server:213] - "POST /admin/accounts/customuser/1e9068d8-b868-4032-ac0e-671e8af37f13/change/ HTTP/1.1" 302 0
+[2025-10-01 02:09:28,476] INFO [django.server:213] - "GET /admin/accounts/customuser/ HTTP/1.1" 200 16138
+[2025-10-01 02:09:28,583] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 02:09:38,709] INFO [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 200 73
+[2025-10-01 02:09:59,509] INFO [django.server:213] - "POST /verify-email/Zk-siEmDG0ygTQBaLUISg5OtD1kYPh8_fsNHuZ7G8VM/ HTTP/1.1" 200 43
+[2025-10-01 02:18:08,101] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/django_secure_auth/celery.py changed, reloading.
+[2025-10-01 02:18:08,647] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 13:01:00,058] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 13:01:12,732] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 13:17:40,335] INFO [django.server:213] - "GET /admin/ HTTP/1.1" 200 13800
+[2025-10-01 13:17:40,600] WARNING [django.request:253] - Not Found: /favicon.ico
+[2025-10-01 13:17:40,601] WARNING [django.server:213] - "GET /favicon.ico HTTP/1.1" 404 6098
+[2025-10-01 13:17:41,783] INFO [django.server:213] - "GET /admin/accounts/emailverificationtoken/ HTTP/1.1" 200 15651
+[2025-10-01 13:17:41,881] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 13:17:41,971] INFO [django.server:213] - "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+[2025-10-01 13:17:41,977] INFO [django.server:213] - "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+[2025-10-01 13:17:41,993] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 13:17:44,666] INFO [django.server:213] - "GET /admin/accounts/emailverificationtoken/a55f5400-6439-4dad-9d4a-e9f6d9385a34/change/ HTTP/1.1" 200 15080
+[2025-10-01 13:17:44,745] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 13:17:44,757] INFO [django.server:213] - "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+[2025-10-01 13:17:44,765] INFO [django.server:213] - "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+[2025-10-01 13:17:44,779] INFO [django.server:213] - "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[2025-10-01 13:17:44,814] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 13:17:44,919] INFO [django.server:213] - "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[2025-10-01 13:17:51,846] INFO [django.server:213] - "GET /admin/accounts/customuser/ HTTP/1.1" 200 15887
+[2025-10-01 13:17:51,912] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 13:17:51,980] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 15:23:10,343] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/celery_tasks/notifications.py changed, reloading.
+[2025-10-01 15:23:10,860] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 15:23:30,361] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/celery_tasks/notifications.py changed, reloading.
+[2025-10-01 15:23:30,882] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 15:24:04,506] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/celery_tasks/notifications.py changed, reloading.
+[2025-10-01 15:24:05,052] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 15:53:44,509] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 15:55:43,370] INFO [django.server:213] - "GET /get-csrf-token/ HTTP/1.1" 200 56
+[2025-10-01 15:55:53,998] INFO [django.server:213] - "GET /get-csrf-token/ HTTP/1.1" 200 56
+[2025-10-01 15:58:18,982] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/celery_tasks/notifications.py changed, reloading.
+[2025-10-01 15:58:19,489] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 15:59:11,449] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/config/celery_config.py changed, reloading.
+[2025-10-01 15:59:11,987] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 16:21:51,983] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/celery_tasks/notifications.py changed, reloading.
+[2025-10-01 16:21:52,503] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 16:25:10,933] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/celery_tasks/notifications.py changed, reloading.
+[2025-10-01 16:25:11,466] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 16:25:32,937] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/celery_tasks/notifications.py changed, reloading.
+[2025-10-01 16:25:33,463] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 16:38:59,404] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/accounts/views.py changed, reloading.
+[2025-10-01 16:39:00,000] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 16:39:21,444] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/accounts/urls.py changed, reloading.
+[2025-10-01 16:39:22,016] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 16:39:28,388] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/accounts/urls.py changed, reloading.
+[2025-10-01 16:39:28,959] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 17:58:07,627] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/config/celery_config.py changed, reloading.
+[2025-10-01 17:58:08,415] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 17:58:43,943] INFO [django.server:213] - "GET /admin/ HTTP/1.1" 200 13800
+[2025-10-01 17:58:44,208] WARNING [django.request:253] - Not Found: /favicon.ico
+[2025-10-01 17:58:44,215] WARNING [django.server:213] - "GET /favicon.ico HTTP/1.1" 404 6099
+[2025-10-01 17:58:46,132] INFO [django.server:213] - "GET /admin/accounts/customuser/ HTTP/1.1" 200 15887
+[2025-10-01 17:58:46,221] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 17:58:46,328] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 17:58:48,087] INFO [django.server:213] - "GET /admin/accounts/customuser/ca246c58-c439-4895-8549-335a64ca420d/change/ HTTP/1.1" 200 22661
+[2025-10-01 17:58:48,189] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 17:58:51,771] INFO [django.server:213] - "POST /admin/accounts/customuser/ca246c58-c439-4895-8549-335a64ca420d/change/ HTTP/1.1" 302 0
+[2025-10-01 17:58:51,803] INFO [django.server:213] - "GET /admin/accounts/customuser/ HTTP/1.1" 200 16138
+[2025-10-01 17:58:51,906] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 17:58:53,130] INFO [django.server:213] - "GET /admin/accounts/customuser/1e9068d8-b868-4032-ac0e-671e8af37f13/change/ HTTP/1.1" 200 22617
+[2025-10-01 17:58:53,203] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 17:58:56,674] INFO [django.server:213] - "POST /admin/accounts/customuser/1e9068d8-b868-4032-ac0e-671e8af37f13/change/ HTTP/1.1" 302 0
+[2025-10-01 17:58:56,710] INFO [django.server:213] - "GET /admin/accounts/customuser/ HTTP/1.1" 200 16138
+[2025-10-01 17:58:56,813] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 17:59:03,415] INFO [django.server:213] - "GET /admin/accounts/customuser/ HTTP/1.1" 200 15887
+[2025-10-01 17:59:03,470] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 17:59:15,794] INFO [django.server:213] - "GET /get-csrf-token/ HTTP/1.1" 200 56
+[2025-10-01 17:59:43,593] INFO [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 200 73
+[2025-10-01 17:59:54,659] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 17:59:54,660] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 18:00:02,705] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 18:00:02,705] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 18:00:07,192] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 18:00:07,192] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 18:00:07,815] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 18:00:07,815] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 18:00:08,370] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 18:00:08,371] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 18:00:08,863] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 18:00:08,864] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 18:00:09,063] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 18:00:09,064] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 18:00:09,255] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 18:00:09,256] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 18:00:09,455] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 18:00:09,455] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 18:00:09,631] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 18:00:09,632] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 18:00:09,806] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 18:00:09,806] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 18:00:09,991] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 18:00:09,991] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 18:00:10,209] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 18:00:10,210] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 18:00:10,359] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 18:00:10,360] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 18:00:10,590] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 18:00:10,590] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 18:00:10,798] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 18:00:10,799] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 18:00:11,049] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 18:00:11,049] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 18:00:11,207] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 18:00:11,207] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 18:00:11,415] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 18:00:11,415] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 18:00:11,622] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 18:00:11,623] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 18:00:11,806] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 18:00:11,806] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 18:00:11,999] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 18:00:11,999] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 18:00:12,190] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 18:00:12,190] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 18:00:12,398] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 18:00:12,399] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 18:00:12,592] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 18:00:12,592] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 18:00:15,543] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 18:00:15,544] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 18:00:16,014] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 18:00:16,015] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 18:00:16,206] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 18:00:16,207] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 18:00:16,416] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 18:00:16,416] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 18:00:16,607] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 18:00:16,608] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 18:00:16,814] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 18:00:16,815] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 18:00:17,066] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 18:00:17,066] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 18:00:17,199] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 18:00:17,200] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 18:00:17,598] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 18:00:17,599] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 18:00:17,806] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 18:00:17,807] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 18:00:17,982] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 18:00:17,983] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 18:00:18,268] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 18:00:18,269] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 18:00:18,359] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 18:00:18,360] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 18:00:26,431] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 18:00:26,431] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 18:00:27,023] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 18:00:27,024] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 18:00:27,207] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 18:00:27,207] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 18:00:27,390] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 18:00:27,391] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 18:00:27,575] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 18:00:27,575] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 18:00:27,798] WARNING [django.request:253] - Forbidden: /resend-verify-email/
+[2025-10-01 18:00:27,799] WARNING [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 403 63
+[2025-10-01 18:00:40,039] WARNING [django.request:253] - Unauthorized: /get-new-access-token/
+[2025-10-01 18:00:40,040] WARNING [django.server:213] - "GET /get-new-access-token/ HTTP/1.1" 401 30
+[2025-10-01 18:00:46,182] INFO [django.server:213] - "GET /get-csrf-token/ HTTP/1.1" 200 56
+[2025-10-01 18:00:46,694] INFO [django.server:213] - "GET /get-csrf-token/ HTTP/1.1" 200 56
+[2025-10-01 18:00:56,050] INFO [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 200 73
+[2025-10-01 18:01:50,749] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/config/celery_config.py changed, reloading.
+[2025-10-01 18:01:51,336] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 18:02:37,120] INFO [django.server:213] - "GET /admin/accounts/emailverificationtoken/ HTTP/1.1" 200 10419
+[2025-10-01 18:02:37,245] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 18:02:39,479] INFO [django.server:213] - "GET /admin/accounts/customuser/ HTTP/1.1" 200 15887
+[2025-10-01 18:02:39,554] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 18:02:52,436] INFO [django.server:213] - "POST /resend-verify-email/ HTTP/1.1" 200 73
+[2025-10-01 18:03:17,925] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/celery_tasks/notifications.py changed, reloading.
+[2025-10-01 18:03:18,463] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 18:03:35,944] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/celery_tasks/notifications.py changed, reloading.
+[2025-10-01 18:03:36,475] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 18:04:15,189] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/celery_tasks/notifications.py changed, reloading.
+[2025-10-01 18:04:15,721] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 18:04:33,167] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/celery_tasks/notifications.py changed, reloading.
+[2025-10-01 18:04:33,673] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 18:08:45,198] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/celery_tasks/notifications.py changed, reloading.
+[2025-10-01 18:08:45,738] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 18:09:41,601] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/celery_tasks/notifications.py changed, reloading.
+[2025-10-01 18:09:42,144] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 18:09:59,588] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/celery_tasks/notifications.py changed, reloading.
+[2025-10-01 18:10:00,097] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 18:12:08,920] INFO [django.server:213] - "GET /admin/accounts/customuser/ HTTP/1.1" 200 15887
+[2025-10-01 18:12:09,073] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 18:23:31,373] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/celery_tasks/notifications.py changed, reloading.
+[2025-10-01 18:23:31,977] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 18:24:08,777] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/celery_tasks/notifications.py changed, reloading.
+[2025-10-01 18:24:09,363] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 18:24:49,128] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/celery_tasks/notifications.py changed, reloading.
+[2025-10-01 18:24:49,739] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 18:25:44,758] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/celery_tasks/notifications.py changed, reloading.
+[2025-10-01 18:25:45,365] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 18:26:00,854] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/celery_tasks/notifications.py changed, reloading.
+[2025-10-01 18:26:01,511] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 18:26:07,875] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/celery_tasks/notifications.py changed, reloading.
+[2025-10-01 18:26:08,462] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 18:28:49,678] INFO [django.server:213] - "GET /admin/accounts/emailverificationtoken/ HTTP/1.1" 200 10419
+[2025-10-01 18:28:49,829] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 18:28:52,759] INFO [django.server:213] - "GET /admin/accounts/customuser/ HTTP/1.1" 200 14426
+[2025-10-01 18:28:52,826] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 18:28:54,272] INFO [django.server:213] - "GET /admin/accounts/customuser/d4cd1e30-f20e-4e34-b5aa-cc39713b611e/change/ HTTP/1.1" 200 22665
+[2025-10-01 18:28:54,368] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 18:28:55,762] INFO [django.server:213] - "GET /admin/accounts/customuser/ HTTP/1.1" 200 14426
+[2025-10-01 18:28:55,835] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 18:28:58,290] INFO [django.server:213] - "GET /admin/accounts/customuser/ HTTP/1.1" 200 14426
+[2025-10-01 18:28:58,354] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 18:30:52,738] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/config/celery_config.py changed, reloading.
+[2025-10-01 18:30:53,308] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 18:32:58,007] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/celery_tasks/notifications.py changed, reloading.
+[2025-10-01 18:32:58,527] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 18:33:01,783] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/celery_tasks/notifications.py changed, reloading.
+[2025-10-01 18:33:02,304] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 18:43:00,927] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/celery_tasks/notifications.py changed, reloading.
+[2025-10-01 18:43:01,493] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 18:43:38,190] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/config/celery_config.py changed, reloading.
+[2025-10-01 18:43:38,699] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 18:44:32,947] WARNING [django.security.csrf:253] - Forbidden (CSRF token from the 'X-Csrftoken' HTTP header incorrect.): /create-account/
+[2025-10-01 18:44:32,947] WARNING [django.request:253] - Unauthorized: /create-account/
+[2025-10-01 18:44:32,948] WARNING [django.server:213] - "POST /create-account/ HTTP/1.1" 401 24
+[2025-10-01 18:44:39,808] INFO [django.server:213] - "GET /get-csrf-token/ HTTP/1.1" 200 56
+[2025-10-01 18:44:58,878] INFO [django.server:213] - "POST /create-account/ HTTP/1.1" 200 148
+[2025-10-01 18:46:29,471] WARNING [django.request:253] - Not Found: /reset-password/
+[2025-10-01 18:46:29,471] WARNING [django.server:213] - "POST /reset-password/ HTTP/1.1" 404 6112
+[2025-10-01 18:46:35,895] WARNING [django.request:253] - Not Found: /reset-password/
+[2025-10-01 18:46:35,896] WARNING [django.server:213] - "POST /reset-password/ HTTP/1.1" 404 6112
+[2025-10-01 18:47:04,095] INFO [django.server:213] - "POST /forget-password/ HTTP/1.1" 200 73
+[2025-10-01 18:48:05,353] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/celery_tasks/notifications.py changed, reloading.
+[2025-10-01 18:48:05,870] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 18:48:21,299] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/config/celery_config.py changed, reloading.
+[2025-10-01 18:48:21,818] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 18:49:26,519] INFO [django.server:213] - "GET /admin/accounts/customuser/d4cd1e30-f20e-4e34-b5aa-cc39713b611e/change/ HTTP/1.1" 200 22665
+[2025-10-01 18:49:26,637] INFO [django.server:213] - "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-01 18:49:44,360] INFO [django.server:213] - "POST /create-account/ HTTP/1.1" 200 148
+[2025-10-01 18:50:18,564] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/celery_tasks/notifications.py changed, reloading.
+[2025-10-01 18:50:19,141] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 18:50:36,588] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/celery_tasks/notifications.py changed, reloading.
+[2025-10-01 18:50:37,174] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 18:51:00,687] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/celery_tasks/notifications.py changed, reloading.
+[2025-10-01 18:51:01,243] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 18:51:44,024] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/config/celery_config.py changed, reloading.
+[2025-10-01 18:51:44,544] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 18:52:15,188] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/config/celery_config.py changed, reloading.
+[2025-10-01 18:52:15,719] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 18:52:31,190] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/config/celery_config.py changed, reloading.
+[2025-10-01 18:52:31,698] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 18:54:37,860] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/celery_tasks/notifications.py changed, reloading.
+[2025-10-01 18:54:38,446] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 18:54:48,883] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/celery_tasks/notifications.py changed, reloading.
+[2025-10-01 18:54:49,446] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 18:56:35,244] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/celery_tasks/notifications.py changed, reloading.
+[2025-10-01 18:56:35,801] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
+[2025-10-01 22:19:03,776] INFO [django.utils.autoreload:265] - /home/coderiver/Documents/Projects/django-secure-auth/config/celery_config.py changed, reloading.
+[2025-10-01 22:19:04,497] INFO [django.utils.autoreload:667] - Watching for file changes with StatReloader
