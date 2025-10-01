@@ -76,7 +76,7 @@ django-secure-auth/
 ├── manage.py # Django management script
 └── README.md # Project documentation
 
-
+## 
 
 ---
 
@@ -88,13 +88,13 @@ git clone https://github.com/your-username/django-secure-auth.git
 cd django-secure-auth
 
 
-2. Create and sync virtual environment with uv:
-    uv venv
-    source .venv/bin/activate
-    uv sync
+# 2. Create and sync virtual environment with uv:
+uv venv
+source .venv/bin/activate
+uv sync
 
 
-3. Setup environment variables (.env):
+# 3. Setup environment variables (.env):
     DEBUG=True
     SECRET_KEY=your-secret-key
     DATABASE_URL=postgres://user:password@localhost:5432/django_secure_auth
@@ -102,22 +102,24 @@ cd django-secure-auth
     REDIS_URL=redis://localhost:6379/0
 
 
-4. Apply migrations:
+# 4. Apply migrations & migrate:
+    uv run python manate.py makemigrations
     uv run python manage.py migrate
 
 
-5. Run development server:
+# 5. Run development server:
     uv run python manage.py runserver
 
-
-6. Run Celery worker:
+# 6. Run Celery worker:
     uv run celery -A django_secure_auth worker -l info
 
 
-7. Run Celery beat (if using scheduled tasks):
+# 7. Run Celery beat (if using scheduled tasks):
     uv run celery -A django_secure_auth beat -l info
 
 
-API Documentation
+
+
+## API Documentation
     Swagger UI → /api/schema/swagger-ui/
     ReDoc → /api/schema/redoc/
