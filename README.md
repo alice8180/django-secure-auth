@@ -83,7 +83,7 @@ django-secure-auth/
 
 ## Installation & Setup (with uv)
 
-1. **Clone the repository**
+# 1. **Clone the repository**
 bash & powershell
 ~~~
 git clone https://github.com/your-username/django-secure-auth.git
