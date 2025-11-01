@@ -29,6 +29,7 @@ Supports cookie-based JWT authentication, CSRF protection, email verification, p
 ---
 
 ## Project Structure
+~~~
 django-secure-auth/
 ├── accounts/ # User models, serializers, views, authentication
 │ ├── authentication.py
@@ -75,7 +76,7 @@ django-secure-auth/
 ├── main.py # Entry script (if any custom startup logic)
 ├── manage.py # Django management script
 └── README.md # Project documentation
-
+~~~
 ## 
 
 ---
@@ -83,10 +84,11 @@ django-secure-auth/
 ## Installation & Setup (with uv)
 
 1. **Clone the repository**
-```bash & powershell
+bash & powershell
+~~~
 git clone https://github.com/your-username/django-secure-auth.git
 cd django-secure-auth
-
+~~~
 
 # 2. Create and sync virtual environment with uv:
 uv venv
