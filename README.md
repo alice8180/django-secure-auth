@@ -101,7 +101,6 @@ $ cd django-secure-auth
 ## 2. Create and sync virtual environment with uv:
 ~~~
 $ uv venv
-$ source .venv/bin/activate
 $ uv sync
 ~~~
 
