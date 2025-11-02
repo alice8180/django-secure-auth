@@ -23,6 +23,7 @@ Supports cookie-based JWT authentication, CSRF protection, email verification, p
 - <a href="#requirements">Requirements</a>
 - <a href="#project-structure">Project Structure</a>
 - <a href="#installation--setup-with-uv">Install & Setup</a>
+- <a href="#api-documentation">API documentation</a>
 
 ---
 
