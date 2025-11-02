@@ -128,7 +128,7 @@ $ uv sync
     uv run celery -A django_secure_auth worker -l info
 
 
-## 7. Run Celery beat (if using scheduled tasks):
+## 7. Run Celery beat (scheduled tasks):
     uv run celery -A django_secure_auth beat -l info
 
 
