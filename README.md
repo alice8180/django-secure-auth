@@ -17,6 +17,14 @@ Supports cookie-based JWT authentication, CSRF protection, email verification, p
 - Structured **class-based views** & reusable utilities
 
 ---
+## Table of Contains 
+
+- <a href="#features">Features</a>
+- <a href="#requirements">Requirements</a>
+- <a href="#project-structure">Project Structure</a>
+- <a href="#installation--setup-with-uv">Install & Setup</a>
+
+---
 
 ## Requirements
 
@@ -83,40 +91,44 @@ django-secure-auth/
 
 ## Installation & Setup (with uv)
 
-# 1. **Clone the repository**
+## 1. **Clone the repository**
 bash & powershell
 ~~~
-git clone https://github.com/your-username/django-secure-auth.git
-cd django-secure-auth
+$ git clone https://github.com/your-username/django-secure-auth.git
+$ cd django-secure-auth
+~~~
+## 2. Create and sync virtual environment with uv:
+~~~
+$ uv venv
+$ source .venv/bin/activate
+$ uv sync
 ~~~
 
-# 2. Create and sync virtual environment with uv:
-uv venv
-source .venv/bin/activate
-uv sync
-
-
-# 3. Setup environment variables (.env):
+## 3. Setup environment variables (.env):
+~~~
     DEBUG=True
     SECRET_KEY=your-secret-key
     DATABASE_URL=postgres://user:password@localhost:5432/django_secure_auth
     CELERY_BROKER_URL=amqp://guest:guest@localhost:5672//
     REDIS_URL=redis://localhost:6379/0
+~~~
 
-
-# 4. Apply migrations & migrate:
+## 4. Apply migrations & migrate:
+~~~
     uv run python manate.py makemigrations
     uv run python manage.py migrate
+~~~
 
-
-# 5. Run development server:
+## 5. Run development server:
+~~~
     uv run python manage.py runserver
+~~~
 
-# 6. Run Celery worker:
+## 6. Run Celery worker:
     uv run celery -A django_secure_auth worker -l info
 
 
-# 7. Run Celery beat (if using scheduled tasks):
+## 7. Run Celery beat (if using scheduled tasks):
     uv run celery -A django_secure_auth beat -l info
 
 
